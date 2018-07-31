@@ -1,0 +1,65 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #fcfae8;
+}
+
+#timer-header {
+  margin-top: 25px;
+  text-align: center;
+  padding: 10px;
+  background-color: #e6fffc;
+}
+
+#time-display {
+  font-size: 3vw;
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 15px;
+}
+
+#highlight {
+  background-color: #00ccb4;
+  color: white;
+}
+
+#timer {
+  width: 50%;
+  margin: auto;
+}
+
+#splits-list {
+  margin: auto;
+  width: 40%;
+}
+
+.split {
+  margin: 10px 0;
+  text-align: center;
+  background-color:  #99fff3;
+  border-radius: 5px;
+  padding: 8px;
+
+}
+
+.split:hover {
+  background-color: #33ffe7;
+}
+
+button {
+    background-color: #009987;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
